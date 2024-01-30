@@ -13,10 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(number: u32) -> u32 {
+    let mut apple_cost: u32 = 2;
+
+    if number > 40 {
+        apple_cost = 1; //can't use shadowing as the variable
+    }
+
+    number * apple_cost
+}
 
 // Don't modify this function!
 #[test]

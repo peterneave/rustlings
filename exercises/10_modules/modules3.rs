@@ -6,12 +6,10 @@
 // you can do it with one line!
 //
 // Execute `rustlings hint modules3` or use the `hint` watch subcommand for a
-// hint.
-
-// I AM NOT DONE
+// hint.w
 
 // TODO: Complete this use statement
-use ???
+use std::time::{SystemTime,UNIX_EPOCH};// could use * also
 
 fn main() {
     match SystemTime::now().duration_since(UNIX_EPOCH) {
